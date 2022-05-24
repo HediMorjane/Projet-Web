@@ -68,6 +68,39 @@ a {
     color: #ffffff;
 }
 
+/* Barre de recherche */
+
+.search-barre{
+    background-color: #f6eec9;
+}
+.search-barre input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 15px;
+    border: 1%;
+    border-radius: 5px;
+}
+
+.btnSearch{
+    padding: 1%;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btnSearch-primary{
+    background-color: #fdce98;
+    color: white;
+    cursor: pointer;
+}
+
+.btnSearch-primary:hover{
+    background-color: #ff4757;
+}
+
+
+
+
 nav {
     min-height: 10vh;
     display: flex;
@@ -227,4 +260,3 @@ button:hover::before {
     font-size: 2em;
     background-color: #fdce98;
 }
-
