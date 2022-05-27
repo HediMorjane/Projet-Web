@@ -23,7 +23,7 @@
                     <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
                                 Accueil
                             </button> </a></li>
-                    <li><a href="Parcourir.php" title="parcourir">
+                    <li><a href="#">
                             <button id="button">
                                 Tout parcourir
                             </button> </a></li>
@@ -45,10 +45,10 @@
 
     <div class="inscription">
         <div class="container">
-        <h3>Inscription</h3><br>
-        <h4>L'inscription au site Omnes santé est gratuite et rapide.</h4><br>
+        <h3>Nos spécialistes </h3><br>
+        <h4>On a plein de médecins .</h4><br>
         <li><a href="register.html" title="S'enregistrer"> <button class="btn">
-            Je crée mon compte 
+            Afficher les médecins 
         </button> </a></li>
 </div>
     </div>
@@ -57,29 +57,9 @@
 
     <div class="connexion"  >
         <div class="container">
-        <form class="login-email" method="POST" action="login.php">
-            <p class="login-text">Connexion</p>
-            <div class="input-group">
-                <input type="email" name="mail"  placeholder="Entrez votre adresse email" required>
-            </div>
-            <div class="input-group">
-                <input type="password" name="password" placeholder="Entrez votre mot de passe" required>
-            </div>
-            <div class="input-group">
-                <button type="submit" name="submit" value="LOGIN" class="btn">Login</button>
-            </div>
-        </form>
-    </div>
-    </div>
-    <hr class="hr3">
 
-    <div class="connexion"  >
-        <div class="container">
-            <div class="input-group">
-                <h1>Se connecter en tant qu'Admin</h1>
-                <a href="admin/admin.html">
-                <button  name="admin" value="LOGIN" class="btn">Admin</button> </a>
-            </div>
+       
+    </div>
     </div>
 </body>
 </html>

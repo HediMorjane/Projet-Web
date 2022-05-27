@@ -10,21 +10,21 @@ if(!$conn){
 }
    
 
-if(isset($_POST['mail'])){
-    $mail=$_POST['mail'];
-    $password=md5($_POST['password']);
-    $sql="SELECT * from client where Mail='".$mail."' AND Pass='".$password."' limit 1 ";
+if(isset($_POST['username'])){
+    $username=$_POST['username'];
+    $password=($_POST['password']);
+    $sql="SELECT * from admin where Username='".$username."' AND Pass='".$password."' limit 1 ";
 
     $result=mysqli_query($conn,$sql);
 if(mysqli_num_rows($result)==1){
-    echo"Connexion réuissie";
-         /*$row=mysqli_fetch_assoc($result);
+    //echo"Connexion réuissie";
+        $row=mysqli_fetch_assoc($result);
         $_SESSION['username']=$row['username'];
-        header("Location:welcome.php")*/
-        exit();
+        header("Location:index.php") ;  
 }
+
 else{
-    header("Location:compte.html") ; 
+    header("Location:admin.html") ; 
 }
 }
 

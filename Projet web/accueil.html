@@ -13,25 +13,62 @@
 
 
     <!-- Début barre de navigation -->
+  <!--  <header class="main-head"><!---->
+        
+        <nav>
+            <div class="logo">
+                <img src="Images/Logo rectangle.png" alt="Image au pif" class="img-responsive"/>
+            </div>
+            <div id="wrap">
+                <ul class="navbar">
+                <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
+                            Accueil
+                        </button> </a></li>
+                <li><a href="Parcourir.php" title="parcourir">
+                        <button id="button">
+                            Tout parcourir
+                        </button> </a>
+
+                         <ul>
+    <li><a href="#">Médecine générale</a></li>
+    <li><a href="medecinSpe.html">Médecins spécialistes</a></li>
+    <li><a href="#">Laboratoire de biologie médicale</a></li>
+</ul>
+</li>
+
+
+                <li><a href="#"> <button id="button">
+                            Rechcerche
+                        </button> </a></li>
+                <li><a href="#"> <button id="button">
+                            Rendez-vous
+                        </button> </a></li>
+                <li><a href="Compte.html" title="Votre compte"> <button id="button">
+                            Votre compte
+                        </button> </a></li>
+                    </div>
+            </ul>
+        </nav>-->
+  
+</header>
     <header class="main-head">
         <div class="container">
             <nav>
                 <div class="logo">
                     <img src="Images/Logo rectangle.png" alt="Image au pif" class="img-responsive"/>
                 </div>
-                
                 <ul>
                     <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
                                 Accueil
                             </button> </a></li>
-                    <li><a href="#">
+                    <li><a href="Parcourir.php" title="parcourir">
                             <button id="button">
                                 Tout parcourir
                             </button> </a></li>
                     <li><a href="#"> <button id="button">
                                 Rechcerche
                             </button> </a></li>
-                    <li><a href="#"> <button id="button">
+                    <li><a href="rdv.html"> <button id="button">
                                 Rendez-vous
                             </button> </a></li>
                     <li><a href="Compte.html" title="Votre compte"> <button id="button">
@@ -42,6 +79,8 @@
         </div>
     </header>
     <!-- Fin barre de navigation -->
+
+    <hr class="hr3">
 
     <!-- Début barre de recherche -->
     <section class="search-barre text-center">
@@ -56,11 +95,11 @@
                     var a = document.getElementById("search").value;
 
                     if (a === "accueil") {
-                        window.open("/Users/romai/OneDrive/Bureau/HTML%20ECE/Projet%20Webdynamique/accueil.html");
+                        window.open("C:\wamp64\www\Projet web/accueil.html");
                     }
 
                     if (a === "compte") {
-                        window.open("/Users/romai/OneDrive/Bureau/HTML%20ECE/Projet%20Webdynamique/Compte.html");
+                        window.open("C:\wamp64\www\Projet web/Compte.html");
                     }
 
                     if (a === "youtube") {
@@ -71,8 +110,6 @@
         </div>
     </section>
     <!-- Fin barre de recherche -->
-
-    <hr class="hr3">
 
     <!-- Début Actualités -->
     <section class="event">
@@ -119,7 +156,7 @@
                     <a href="#"> <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/> </a>
                 </li>
                 <li> 
-                    <a href="https://www.instagram.com/lucasmenny/" > <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/> </a>
+                    <a href="#"> <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/> </a>
                 </li>
                 <li> 
                     <a href="#"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/> </a>
@@ -153,13 +190,5 @@
 
 </html>
 
-<!-- FOOD SEARCH Section Starts Here 
-<section class="food-search">
-    <div class="container">
-        <form action="">
-    <input type="search" name="search" placeholder="Search for Food ..">
-    <input type="submit" name="submit" value="Search" class="btn">
-        </form>
-    </div>
- </section>
- FOOD SEARCH Section Ends Here -->
+
+
