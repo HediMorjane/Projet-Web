@@ -1,129 +1,34 @@
+<!--code que l'on a fait lors tp6  réadapté au projet -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title> Prise RDV</title>
+    </head>
+    <body>
 
-<head id="entete">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
-    <link href="CSS/rdv.css" rel="stylesheet" type="text/css" />
-    <title>Omnes santé|Online mediacal consultation</title>
+        <h1>Formulaire</h1>
+        <form method="post" action="traitement.php">
+            <label>Nom Medecin General (si medGe): </label>
+            <input type="text" name="MedGe"> <br>
+            <label>Nom MedSpecialise (si medSpe): </label>
+            <input type="text" name="MedSpe"> <br>
+            <label>Client: </label>
+            <input type="text" name="Client"> <br>
+            <label>Date:</label>
+            <input type="text" name="Date"> <br>
+            <label>Heure:</label>
+            <input type="text" name="Heure"> <br>
+            <label>Salle:</label>
+            <input type="text" name="Salle"> <br>
+            <label>Type rdv:</label>
+            <input type="text" name="TypeRDV"> <br>
+            <input type="submit" name="showall" value="Show all"><br>
+            <input type="submit" name="insert" value="Insert"><br>
+            <!--<input type="submit" name="update" value="Update"><br>-->
+            <input type="submit" name="delete" value="Delete"><br>
 
-</head>
-
-<body>
-
-
-    <!-- Début barre de navigation -->
-    <header class="main-head">
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <img src="Images/Logo rectangle.png" alt="Image au pif" class="img-responsive" />
-                </div>
-                <ul>
-                    <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
-                                Accueil
-                            </button> </a></li>
-                    <li><a href="Parcourir.php" title="parcourir">
-                            <button id="button">
-                                Tout parcourir
-                            </button> </a></li>
-                    <li><a href="#"> <button id="button">
-                                Rechcerche
-                            </button> </a></li>
-                    <li><a href="rdv.html"> <button id="button">
-                                Rendez-vous
-                            </button> </a></li>
-                    <li><a href="Compte.html" title="Votre compte"> <button id="button">
-                                Votre compte
-                            </button> </a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- Fin barre de navigation -->
-
-    <hr class="hr3">
-
-    <!-- Début rdv -->
-    <section class="rdv" id="rdv">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <h1 class="heading "text-center> Prendre un Rendez-vous</h1>
-
-                <div class="col-md-10" data-aos="flip-down">
-
-                    <form action="">
-
-                        <div class="inputBox">
-                            <input type="text" placeholder="Nom et Prénom">
-                            <input type="number" placeholder="Numéro de téléphone">
-                        </div>
-
-                        <div class="inputBox">
-                            <input type="email" placeholder="Adresse email">
-                            <select name="" id="">
-                                <option value="" disabled selected>Heure du rendez vous</option>
-                                <option value="09-11 am">09-11 am</option>
-                                <option value="11-03 pm">11-03 pm</option>
-                                <option value="03-06 pm">03-06 pm</option>
-                                <option value="06-09 pm">06-09 pm</option>
-                            </select>
-                        </div>
-
-                        <textarea name="" id="" cols="30" rows="10" placeholder="message ( optionnel )"></textarea>
-
-                        <input type="submit" name="" id="" value="Valider le rendez-vous" classe="button" class="btn">
-
-                    </form>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Fin rdv -->
-
-    <hr class="hr3">
-
-
-
-    <hr class="hr3">
-
-    <!-- Début Barre réseaux sociaux -->
-    <section class="social">
-        <div class="container text-center">
-            <ul>
-                <li>
-                    <a href="#"> <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" /> </a>
-                </li>
-                <li>
-                    <a href="#"> <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /> </a>
-                </li>
-                <li>
-                    <a href="#"> <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" /> </a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Fin barrre réseaux sociaux -->
-
-    <hr class="hr3">
-
-    <!-- Début footer -->
-    <footer class="footer">
-        <div class="container text-center">
-            <h3>Nous trouver </h3>
-            Copyright &copy; 2022 Omnes santé<br>
-            +33 65 88 54 74 10<br>
-            <a href="mailto:omnes.sante@gmail.com">omnes.sante@gmail.com
-
-        </div>
-    </footer>
-    <!-- Fin footer -->
-
-
-</body>
+        </form>
+    </body>
 
 </html>
