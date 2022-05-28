@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head id="entete">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/compte.css">
+    <title>Omnes santé| Votre compte</title>
+
+</head>
+
+<body>
+
+    <header class="main-head">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="Images/Logo rectangle.png" alt="Image au pif" class="img-responsive"/>
+                </div>
+                <ul>
+                    <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
+                                Accueil
+                            </button> </a></li>
+                    <li><a href="Parcourir.php" title="parcourir">
+                            <button id="button">
+                                Tout parcourir
+                            </button> </a></li>
+                    <li><a href="#"> <button id="button">
+                                Rechcerche
+                            </button> </a></li>
+                    <li><a href="rdv.html"> <button id="button">
+                                Rendez-vous
+                            </button> </a></li>
+                    <li><a href="Compte.html" title="Votre compte"> <button id="button">
+                                Votre compte
+                            </button> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hr class="hr3">
+
+
+    <div class="connexion"  >
+        <div class="container">
+        <form class="login-email" method="POST" action="register.php">
+            <p class="login-text">S'enregistrer</p>
+            <div class="input-group">
+                <input type="text" name="nom"  placeholder="Entrez votre nom" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="prenom"  placeholder="Entrez votre prénom" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="adresse"  placeholder="Entrez votre adresse" required>
+            </div>
+            <div class="input-group">
+                <input type="email" name="mail"  placeholder="Entrez votre adresse e-mail" required>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Entrez votre mot de passe" required>
+            </div>
+            <div class="input-group">
+                <input type="password" name="cpassword" placeholder="Confirmez votre mot de passe" required>
+            </div>
+            <div class="input-group">
+                <input type="text" name="cv"  placeholder="Entrez votre numéro de sécurité sociale" required>
+            </div>
+            <input type="radio" name="carte" value="Visa"/>Visa
+            <input type="radio" name="carte" value="American Express"/>American Express    
+            <input type="radio" name="carte" value="Mastercard"/>Mastercard
+        
+            <div class="input-group">
+                <button type="submit" name="submit" value="LOGIN" class="btn">Register</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

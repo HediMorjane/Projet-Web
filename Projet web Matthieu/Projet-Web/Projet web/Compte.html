@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="entete">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/compte.css">
+    <title>Omnes santé| Votre compte</title>
+
+</head>
+
+<body>
+
+    <header class="main-head">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="Images/Logo rectangle.png" alt="Image au pif" class="img-responsive"/>
+                </div>
+                <ul>
+                    <li><a href="accueil.html" title="Page d'accueil"> <button id="button">
+                                Accueil
+                            </button> </a></li>
+                    <li><a href="Parcourir.php" title="parcourir">
+                            <button id="button">
+                                Tout parcourir
+                            </button> </a></li>
+                    <li><a href="#"> <button id="button">
+                                Rechcerche
+                            </button> </a></li>
+                    <li><a href="rdv.html"> <button id="button">
+                                Rendez-vous
+                            </button> </a></li>
+                    <li><a href="Compte.html" title="Votre compte"> <button id="button">
+                                Votre compte
+                            </button> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hr class="hr3">
+
+    <div class="inscription">
+        <div class="container">
+        <h3>Inscription</h3><br>
+        <h4>L'inscription au site Omnes santé est gratuite et rapide.</h4><br>
+        <li><a href="register.html" title="S'enregistrer"> <button class="btn">
+            Je crée mon compte 
+        </button> </a></li>
+</div>
+    </div>
+
+    <hr class="hr3">
+
+    <div class="connexion"  >
+        <div class="container">
+        <form class="login-email" method="POST" action="login.php">
+            <p class="login-text">Connexion</p>
+            <div class="input-group">
+                <input type="email" name="mail"  placeholder="Entrez votre adresse email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Entrez votre mot de passe" required>
+            </div>
+            <div class="input-group">
+                <button type="submit" name="submit" value="LOGIN" class="btn">Login</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <hr class="hr3">
+
+    <div class="connexion"  >
+        <div class="container">
+            <div class="input-group">
+                <h1>Se connecter en tant qu'Admin</h1>
+                <a href="admin/admin.html">
+                <button  name="admin" value="LOGIN" class="btn">Admin</button> </a>
+            </div>
+    </div>
+</body>
+</html>
