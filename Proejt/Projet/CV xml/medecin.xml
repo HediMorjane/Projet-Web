@@ -1,0 +1,141 @@
+<!-- Methode vue en classe pour fichier xml-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<medecins>
+    <medecin id="med1">
+        <nom>Dr.Mad</nom>
+        
+        <age>35</age>
+        <spe>Generaliste</spe>
+        <formation>Paris Descarte</formation>
+        <description>J'ai etudié pendant 8 ans à Paris Descarte</description>
+        
+    </medecin>
+
+    <medecin id="med2">
+        <nom>Dr.Mon</nom>
+        
+        <age>32</age>
+        <spe>Generaliste</spe>
+        <formation>Paris Assas</formation>
+        <description>J'ai etudié pendant 8 ans à Paris Assas</description>
+        
+    </medecin>
+
+    <medecin id="med3">
+        <nom>Dr.Souriante</nom>
+        
+        <age>38</age>
+        <spe>Generaliste</spe>
+        <formation>Toulouse Assas</formation>
+        <description>J'ai etudié pendant 8 ans à Toulouse Assas</description>
+        
+    </medecin>
+
+    <medecin id="med4">
+        <nom>Dr.PasTresDrole</nom>
+        
+        <age>40</age>
+        <spe>Generaliste</spe>
+        <formation>Toulon</formation>
+        <description>J'ai etudié pendant 8 ans à Toulon</description>
+        
+    </medecin>
+    <medecin id="med5">
+        <nom>Dr.Anne</nom>
+        
+        <age>44</age>
+        <spe>Generaliste</spe>
+        <formation>Bordeaux</formation>
+        <description>J'ai etudié pendant 8 ans à Bordeaux</description>
+        
+    </medecin>
+    <medecin id="med6">
+        <nom>Dr.LePatrol</nom>
+        
+        <age>44</age>
+        <spe>Generaliste</spe>
+        <formation>Belgique</formation>
+        <description>J'ai etudié pendant 8 ans en Belgique</description>
+        
+    </medecin>
+    <medecin id="med7">
+        <nom>Dr.Jean</nom>
+        
+        <age>32</age>
+        <spe>Addictologie</spe>
+        <formation>Belgique</formation>
+        <description>J'ai etudié pendant 8 ans en Belgique</description>
+        
+    </medecin>
+    <medecin id="med8">
+        <nom>Dr.Brian</nom>
+        
+        <age>49</age>
+        <spe>Andrologie</spe>
+        <formation>Bordeaux</formation>
+        <description>J'ai etudié pendant 8 ans à Bordeaux</description>
+        
+    </medecin>
+    <medecin id="med9">
+        <nom>Dr.Canaille</nom>
+        
+        <age>40</age>
+        <spe>Cardiologie</spe>
+        <formation>Toulon</formation>
+        <description>J'ai etudié pendant 8 ans à Toulon</description>
+        
+    </medecin>
+
+    <medecin id="med10">
+        <nom>Dr.Isa-Belle</nom>
+        
+        <age>35</age>
+        <spe>Dermatologie</spe>
+        <formation>Paris Descarte</formation>
+        <description>J'ai etudié pendant 8 ans à Paris Descarte</description>
+        
+    </medecin>
+
+    <medecin id="med11">
+        <nom>Dr.Vincent</nom>
+        
+        <age>32</age>
+        <spe>Gastro</spe>
+        <formation>Paris Assas</formation>
+        <description>J'ai etudié pendant 8 ans à Paris Assas</description>
+        
+    </medecin>
+
+    <medecin id="med12">
+        <nom>Dr.Bernadette</nom>
+        
+        <age>38</age>
+        <spe>Gyneco</spe>
+        <formation>Toulouse Assas</formation>
+        <description>J'ai etudié pendant 8 ans à Toulouse Assas</description>
+        
+    </medecin>
+
+    <medecin id="med13">
+        <nom>Dr.Busy</nom>
+        
+        <age>40</age>
+        <spe>IST</spe>
+        <formation>Toulon</formation>
+        <description>J'ai etudié pendant 8 ans à Toulon</description>
+        
+    </medecin>
+    <medecin id="med14">
+        <nom>Dr.Masseur</nom>
+        
+        <age>44</age>
+        <spe>Ostheo</spe>
+        <formation>Bordeaux</formation>
+        <description>J'ai etudié pendant 8 ans à Bordeaux</description>
+        
+    </medecin>
+    
+    
+</medecins>
