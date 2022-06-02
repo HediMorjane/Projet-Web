@@ -1,0 +1,8 @@
+<!ELEMENT medecins (medecin*)>
+<!ELEMENT medecin (nom, age,spe, formation,description)>
+<!ATTLIST medecin id CDATA "0">
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT spe (#PCDATA)>
+<!ELEMENT formation (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
